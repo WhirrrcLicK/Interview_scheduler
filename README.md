@@ -21,3 +21,9 @@ npm test
 ```sh
 npm run storybook
 ```
+
+## Screenshots
+
+!["Initial loaded page"](https://github.com/WhirrrcLicK/Interview_scheduler/blob/master/docs/Interview_scheduler_monday.png?raw=true)
+!["Making an appointment"](https://github.com/WhirrrcLicK/Interview_scheduler/blob/master/docs/Interview_scheduler_makeappt.png?raw=true)
+!["Deleting an appointment"](https://github.com/WhirrrcLicK/Interview_scheduler/blob/master/docs/Interview_scheduler_delappt.png?raw=true)
