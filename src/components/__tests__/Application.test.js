@@ -156,7 +156,7 @@ it("shows the save error when failing to save an appointment", async() => {
 
 
 it("show the delete error when failing to delete an existing appointment", async() => {
-  axios.put.mockRejectedValueOnce();
+  axios.delete.mockRejectedValueOnce();
 
   const { container } = render(<Application />);
 

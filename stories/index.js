@@ -72,13 +72,13 @@ storiesOf("Button", module)
       backgrounds: [{ name: "dark", value: "#222f3e", default: true }],
     })
     .add("Monday", () => (
-      <DayList days={days} value={"Monday"} onChange={action("setDay")} />
+      <DayList days={days} day={"Monday"} setDay={action("setDay")} />
     ))
     .add("Tuesday", () => (
-      <DayList days={days} value={"Tuesday"} onChange={action("setDay")} />
+      <DayList days={days} day={"Tuesday"} setDay={action("setDay")} />
     ))
     .add("Wednesday", () => (
-        <DayList days={days} value={"Wednesday"} onChange={action("setDay")} />
+        <DayList days={days} day={"Wednesday"} setDay={action("setDay")} />
     ));
 
     const interviewer = {
@@ -165,7 +165,7 @@ storiesOf("Button", module)
         .add("Edit form", () => <Form
         student="Lydia Miller-Jones"
         interviewer={3}
-        interviewers={[interviewers]}
+        interviewers={interviewers}
         onSave={action("onSave")}
         onCancel={action("onCancel")} />)
         .add("Create", () => <Form 

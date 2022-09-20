@@ -32,7 +32,6 @@ const updateSpots = (newState, appointments, day) => {
 
 const dayObject = newState.days.find(dayObj => dayObj.name === day)
 const dayIndex = newState.days.findIndex(dayInd => dayInd.name === day)
-console.log(dayIndex)
   const noAppointments = dayObject.appointments.filter((id) => !appointments[id].interview)
   const spots = noAppointments.length;
   const days = [...state.days]

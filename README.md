@@ -1,5 +1,17 @@
 # Interview Scheduler
 
+React based project to create meetings for students to connect with mentors in real-time.
+
+Requirements:
+
+React,
+Axios,
+API server with PostgreSQL,
+Testing libraries such as Jest, Storybook, and Cypress,
+Webpack & Babel,
+Webpack Dev Server
+Create React App
+
 ## Setup
 
 Install dependencies with `npm install`.
@@ -21,6 +33,11 @@ npm test
 ```sh
 npm run storybook
 ```
+
+## Scheduler API
+
+Link to the API for this project:
+https://github.com/lighthouse-labs/scheduler-api
 
 ## Screenshots
 
